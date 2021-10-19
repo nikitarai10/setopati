@@ -1,0 +1,1554 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Mukta', sans-serif;
+    overflow-x: hidden;
+}
+
+/* -------------ADD-SECTION------------------ */
+.add-box
+{
+    padding-top: 1rem;
+}
+.add-box img
+{
+    width: 100%;
+    height: auto;
+}
+/* ----------- HEADER ---------------------- */
+.header-box
+{
+    margin: 3rem 0;
+}
+.header-logo img
+{
+    width: 420px;
+    height: 110px;
+}
+.time-settings
+{
+    margin: 1rem 0 2rem;
+}
+.time-settings .far,
+.english .fa-edge-legacy
+{
+    margin-right: 8px;
+}
+.unicode-title,
+.english-title,
+.date-title,
+.clock-title
+{
+    font-size: 0.94rem;
+}
+.fa-clock,
+.fa-calendar-minus,
+.fa-keyboard,
+.fa-edge-legacy
+{
+    font-size: 1.3rem;
+}
+.calender-date,
+.calender-time,
+.social-box .media
+{
+    margin-right: 2rem;
+}
+.calender-time .clock-title,
+.social-box .english .english-title
+{
+    padding-bottom: 3px;
+}
+.header-logo,
+.calender,
+.social-box,
+.social-box-icons,
+.calender-date,
+.calender-time,
+.unicode a,
+.english a
+{
+    display: flex;
+    align-items: center;
+}
+
+.social-box
+{
+    justify-content: flex-end;
+}
+.header-logo
+{
+    justify-content: center;
+    margin: 3rem 0;
+}
+.calender,
+.social-box a
+{
+    color: #267163;
+}
+.social-box .unicode a:hover,
+.english a:hover,
+.social-box-icons a:hover
+{
+    text-decoration: none;
+    color: #1e6356;
+}
+.social-box-icons a{
+    border-radius: 50%;
+    margin-left: 0.8rem;
+    background: #d7dddc;
+    width: 23px;
+    height: 23px;
+    color: #267163;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ------------AD-2-SECTION------------------------- */
+.ad-2-section
+{
+    margin: 1rem 0 2rem;
+}
+.ad-2-box
+{
+    text-align: center;
+}
+.ad-2-box img
+{
+    max-width: 100%;
+}
+
+/* -------------------------BODY-SECTION------------------------- */
+
+/* ---------------SECTION-1--------------------- */
+.breaking-news-item
+{
+    padding:0.8rem 1.2rem;
+    border:1px solid #e0e0e0;
+    margin: 1.3rem 0;
+}
+.breaking-news-item a{
+    display: flex;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+.breaking-news-item a:hover{
+    color: black;
+    text-decoration: none;
+}
+.breaking-news-item a span{
+    text-align: center;
+    font-size: 3.6rem;
+    margin-bottom: 1.2rem;
+}
+
+/* ----------SECTION-2---------------------- */
+/* ---------------SECTION-4----------------- */
+/* ----------SECTION-6------------------ */
+/* ---------SECTION-8---------------- */
+.advertisement-3-section,
+.advertisement-4-section,
+.advertisement-5-section,
+.advertisement-6-section
+{
+    margin: 3rem 0;
+}
+.ad-3-item,
+.ad-4-item,
+.ad-5-item,
+.ad-6-item
+{
+    display: flex;
+    justify-content: center;
+}
+.ad-3-item img,
+.ad-4-item img,
+.ad-5-item img,
+.ad-6-item img
+{
+max-width: 100%;
+}
+
+/* ------------------SECTION-3----------------- */
+
+.breaking-news-2-item
+{
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+.breaking-news-2-item a:hover
+{
+    text-decoration: none;
+}
+.breaking-news-2-title
+{
+    font-size: 3.3rem;
+    transition: 0.4s ease;
+}
+.breaking-news-2-title:hover{
+    color: black;
+}
+.breaking-news-2-title,
+.author-name
+{
+    display: block;
+}
+.breaking-news-2-item .author-name
+{
+    margin: 1.5rem 0 1.8rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #267163;
+}
+.breaking-news-2-item img{
+    max-width: 100%;
+}
+.breaking-news-description
+{
+    font-family: 'Mukta',sans-serif;
+    font-size: 1.24rem;
+    display: inline-block;
+    padding: 1.8rem 0.8rem 0;
+    color: black;
+}
+.more-news
+{
+    color: #337ec0;
+    transition: 0.4s ease;
+}
+.more-news:hover
+{
+    color:#0a508d;
+}
+/* -------------------SECTION-5------------------- */
+.news-3-title
+{
+    display: inline-block;
+    margin: 1rem 0;
+}
+.breaking-news-3-section-box figure img
+{
+    max-width: 100%;
+    object-fit: cover;
+}
+.news-3-item-1-title,
+.news-3-item-2-title,
+.news-3-item-3-title
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+.breaking-news-3-section-box a:hover
+{
+    text-decoration: none !important;
+}
+.news-3-title .author-name
+{
+    margin-top: 1.2rem;
+    font-size: 0.94rem;
+    color: #242424;
+}
+
+/* --------------SECTION-7----------------- */
+.special-news-bottom-part
+{
+    position: relative;
+}
+.special-news-bottom-part a
+{
+    display: block;
+    max-width: 100%;
+}
+.special-news-bottom-part  a img
+{
+    position: relative;
+    width: 100%;
+}
+.featured-news-title-box
+{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 2rem;
+}
+.featured-news-title-box .featured-news-title a
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin: 1.5rem 0;
+    display: block;
+}
+.featured-news-title a:hover
+{
+    text-decoration: none;
+}
+.featured-news-title-author-box
+{
+    border-top: 1px solid #7c7c7c;
+    padding: 1rem 0;
+}
+.featured-news-title-author-box .author-img
+{
+    font-size: 1.4rem;
+    
+}
+.featured-news-title-author-box .author-img img{
+    width: 32px;
+    height:32px;
+    border-radius: 50%;
+}
+.featured-news-author-box-content .left-icon
+{
+    font-size: 1.2rem;
+    padding-right: 0.4rem;
+}
+.featured-news-author-box-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------SECTION-9------------- */
+
+/* -------COMMON-CODES------------- */
+.breaking-news-4-content
+{
+    margin-bottom: 2rem;
+}
+.global-nepali-section
+{
+    margin-top: 4.3rem;
+}
+.bishesh-news-title h1,
+.samachar-title h1,
+.samachar-videos h1,
+.bishesh-samachar-photos h1,
+.kinmel-bishesh-news h1,
+.ghumfir h1,
+.khelkud-bishesh-news h1,
+.kala-bishesh-news h1,
+.global-bishesh-news h1,
+.global-ghumfir h1,
+.bishesh-ghumfir-anubhav h1
+{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #267163;
+    margin: 0 0 1.2rem 0;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid #337ab7;
+}
+.bishesh-news-title h1 a,
+.samachar-title h1 a,
+.samachar-videos h1 a,
+.bishesh-samachar-photos h1 a,
+.kinmel-bishesh-news h1 a,
+.kinmel-bishesh-news h2 a,
+.ghumfir h1 a,
+.ghumfir h2 a,
+.khelkud-bishesh-news h1 a,
+.khelkud-bishesh-news h2 a,
+.kala-bishesh-news h1 a,
+.kala-bishesh-news h2 a,
+.global-bishesh-news h1 a,
+.global-bishesh-news h2 a,
+.global-ghumfir h1 a,
+.global-ghumfir h2 a,
+.bishesh-ghumfir-anubhav h1 a,
+.bishesh-ghumfir-anubhav h2 a
+{
+    color: #267163;
+    text-decoration: none;
+}
+.bishesh-news-content,
+.samachar-content
+{
+    padding-left: 2rem;
+}
+.bishesh-news-left
+{
+    text-align: center;
+}
+.bishesh-news-left .items
+{
+    margin-top: 3.3rem;
+}
+.bishesh-news-left .items img
+{
+    max-width: 100%;
+}
+.bishesh-news-left .items:first-child
+{
+    margin-top: 0;
+}
+.bishesh-news-left .items .bishesh-item-main-title
+{
+color: #222;
+font-weight: 700;
+font-size: 1.2rem;
+line-height: 2rem;
+}
+.bishesh-news-left .items a
+{
+    text-decoration: none;
+}
+.bishesh-news-right .items.media figure img
+{
+    height: 123px;
+    object-fit: cover;
+}
+.bishesh-news-mask-box
+{
+    background: #e9f5ff;
+    padding-bottom: 1.4rem;
+    margin-top: 4rem;
+}
+.bishesh-news-mask-box .items.featured-items,
+.bishesh-news-mask-box .items.media
+{
+    padding: 1.2rem;
+    text-align: center;
+}
+.bishesh-news-mask-box .items.featured-items figure
+{
+    margin-top: -5.4rem;
+}
+.bishesh-news-mask-box .items.items.featured-items figure img
+{
+    max-width: 100%;
+}
+
+.bishesh-news-mask-box .items.featured-items a
+{
+    text-decoration: none;
+}
+.bishesh-news-mask-box .items.featured-items .main-title
+{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #222;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1.9rem;
+}
+.bishesh-news-mask-box .items.featured-items .author-name
+{
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 1.9rem;
+    position: relative;
+    line-height: 2.6rem;
+}
+.bishesh-news-mask-box .items.featured-items .author-name::after
+{
+    position: absolute;
+    content: "";
+    width: 6rem;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #d13938;
+}
+.bishesh-news-mask-box .items.featured-items .description 
+{
+    color: #222;
+    font-weight: 500;
+}
+.bishesh-news-mask-box .items.media a
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.bishesh-news-mask-box .items{
+    border-top: 1px solid #ddd;
+}
+.bishesh-news-mask-box .items .media-caption .main-title
+{
+    font-size: 1.1rem;
+    line-height: 28px;
+    margin-bottom: 0;
+    color: #222;
+    font-weight: 700;
+}
+.bishesh-news-mask-box .items .media-caption .author-name
+{
+    font-size: 0.9rem;
+    color: rgb(82, 82, 82);
+    margin-top: 1rem;
+}
+.right-side .right-side-bichar .items
+{
+    margin-top: 2rem;
+}
+.right-side .right-side-bichar .items.bichar-first
+{
+    margin-top: 4.2rem;
+}
+.right-side .right-side-bichar .items h1
+{
+    font-size: 1.2rem;
+    color: #267163;
+    font-weight: 600;
+    line-height: 2rem;
+    border-bottom: 1px solid #267163;
+}
+.right-side-bichar .items a
+{
+    text-decoration:none;
+}
+.right-side-bichar .items.ad-item img,
+.bichar-ad-item .media img
+{
+    max-width: 100%;
+}
+.right-side-bichar .bichar-item
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+.right-side-bichar .bichar-feature-item img
+{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.right-side-bichar .bichar-item .main-title
+{
+    display: block;
+    color: #222;
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.right-side-bichar .bichar-item .author-name
+{
+    font-size: 0.9rem;
+    color: #222;
+    display: block;
+    margin-bottom: 2rem;
+    position: relative;
+    line-height: 1.8rem;
+}
+.right-side-bichar .bichar-item .author-name::after
+{
+    position: absolute;
+    content: "";
+    width: 4.2rem;
+    height: 1px;
+    background: #d13938;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+.suchanapati .media
+{
+    margin-top: 1.8rem;
+}
+.suchanapati a
+{
+    display: block;
+}
+.suchanapati a img
+{
+    max-width: 2rem;
+    border-radius: 50%;
+}
+.suchanapati .main-title
+{
+    color: #222;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.suchanapati .media:last-child
+{
+    margin-bottom: 2rem;
+}
+
+/* -----------SAMACHAR-SECTION-------------- */
+
+.samachar-content .items
+{
+    text-align: center;
+}
+.samachar-content .items a
+{
+    text-decoration: none;
+    display: block;
+    padding-top: 1.8rem;
+    margin-top: 1.2rem;
+}
+.samachar-content .items figure img
+{
+    max-width: 100%;
+    object-fit: cover;
+}
+.samachar-content .items > a .main-title
+{
+    display: block;
+    margin: 0.9rem 0;
+    color: #222;
+font-weight: 700;
+font-size: 1.1rem;
+line-height: 2rem;  
+padding: 0 0.5rem; 
+}
+.samachar-content .items .more-news li a
+{
+    position: relative;
+    display: block;
+color: #222;
+border-top: 1px solid #CCC;
+font-weight: 700;
+font-size: 1.1rem;
+line-height: 2rem;
+padding-left: 1.8rem;
+}
+.samachar-content .items .more-news li .left-icon
+{
+    display: inline-block;
+    margin-top: 1rem;
+    position: absolute;
+    left: 0;
+    font-size: 0.7rem;
+    color: #267163;
+}
+
+/* --------------MULTIMEDIA----------------- */
+
+.breaking-news-4-content.video-section
+{
+    margin-top: 4rem;
+}
+.samachar-videos-box
+{
+    padding-left: 4.7rem;
+}
+.samachar-videos figure
+{
+    position: relative;
+}
+.latest-video-thumb figure img,
+.latest-photo-thumb figure img
+{
+    max-width: 100%;
+    object-fit: cover;
+}
+.latest-video-thumb .video-play
+{
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    left: 50%;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2.4rem;
+    border: 2px solid #fff;
+    width:2.7rem;
+    height: 2.8rem;
+    background: #d13938;
+    color: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+}
+.latest-video-thumb a:hover .video-play
+{
+    opacity: 0;
+}
+.latest-video-thumb a:hover
+{
+    text-decoration: none;
+}
+.latest-video-thumb .main-title,
+.latest-photo-thumb .main-title
+{
+    display: block;
+    text-align: center;
+    padding:0 0.8rem 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #222;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.more-btn
+{
+    display: inline-block;
+    margin-top: 2rem;
+    padding-left: 4rem;
+    height: 1.9rem;
+}
+.more-btn a
+{
+    background: #267163;
+font-size: 0.8rem;
+line-height: 1.2rem;
+border-radius: 2.1rem;
+padding: 0.5rem 1.4rem;
+color: #fff;
+transition:all 0.3s ease-in-out;
+}
+.more-btn a:hover
+{
+    color: #fff;
+    background-color: #125ea1;
+    text-decoration: none;
+}
+.more-btn .left-icon
+{
+    margin-right: 4px;
+}
+
+/* ------------AJAKA-TASBIRHARU--------------- */
+.photo-section
+{
+    margin-top: 4.4rem;
+}
+.samachar-photos-box
+{
+    padding-left: 4.6rem;
+}
+.latest-photo-thumb 
+{
+    text-align: center;
+}
+.latest-photo-thumb .main-title
+{
+    padding: 0 1rem;
+}
+
+/* -------------FULL-AD--------------- */
+
+.full-ad-box
+{
+    margin-top: 1rem;
+}
+.full-ad-box img
+{
+    max-width: 100%;
+}
+
+/* -------------KINMEL-BISHESH-NEWS--------- */
+/* ---------KHELKUD-BiSHESH-NEWS------------- */
+
+.kinmel-samachar-section
+{
+    margin-top: 4.3rem;
+}
+.kinmel-mask-box,
+.khelkud-mask-box,
+.kala-mask-box,
+.global-mask-box
+{
+    background: #f1ebe3;
+}
+.kinmel-bishesh,
+.khelkud-bishesh,
+.kala-bishesh,
+.global-bishesh
+{
+    padding-bottom: 1rem;
+}
+.kinmel-bishesh-news h2,
+.kala-bishesh-news h2,
+.khelkud-bishesh-news h2,
+.global-bishesh-news h2
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #267163;
+    margin: 0 0 1.2rem 0;
+    padding: 0 0 1rem 0;
+}
+.kinmel-mask-box .items.media,
+.khelkud-mask-box .items.media,
+.kala-mask-box .items.media,
+.global-mask-box .items.media
+{
+    display: flex;
+    align-items: flex-start;
+}
+.kinmel-mask-box .items figure,
+.khelkud-mask-box .items figure,
+.kala-mask-box .items figure,
+.global-mask-box .items figure
+{
+    margin-bottom: 0;
+}
+.kinmel-bishesh .items figure,
+.khelkud-bishesh .items figure,
+.kala-bishesh .items figure,
+.global-bishesh .items figure
+{
+    position: relative;
+}
+.kinmel-bishesh .items figure img,
+.khelkud-bishesh .items figure img,
+.kala-bishesh .items figure img,
+.global-bishesh .items figure img
+{
+    max-width: 100%;
+    object-fit: cover;
+}
+.kinmel-bishesh .items figure .tags,
+.khelkud-bishesh .items figure .tags,
+.kala-bishesh .items figure .tags,
+.global-bishesh .items figure .tags
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    line-height: 1rem;
+    background: #d13938;
+    color: #fff;
+}
+.kinmel-bishesh .featured-items .tags,
+.khelkud-bishesh .featured-items .tags,
+.kala-bishesh .featured-items .tags,
+.global-bishesh .featured-items .tags
+{
+    display: inline-block;
+    position: relative;
+    line-height: 1rem;
+    color: #fff;
+    background: #d13938;
+    margin: 1.5rem auto 1.6rem auto;
+    padding: 0.5rem 1.2rem;
+    font-weight: 400;
+}
+.kinmel-mask-box .kinmel-media-caption,
+.khelkud-mask-box .khelkud-media-caption,
+.kala-mask-box .kala-media-caption,
+.global-mask-box .global-media-caption
+{
+    text-align: start;
+    flex: 1;
+}
+.media-caption .tags
+{
+    text-align: start;
+    display: inline-block;
+    position: relative;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #fff;
+    background: #d13938;
+    margin-bottom:1rem;
+    padding: 0.4rem 1rem;
+    font-weight: 400;
+}
+.kinmel-media-caption .main-title,
+.khelkud-media-caption .main-title,
+.kala-media-caption .main-title,
+.global-media-caption .main-title
+{
+    display: block;
+}
+
+/*-----------KINMEL-SAMACHAR-SECTION----------- */
+
+.kinmel-samachar
+{
+    margin-top: 4rem;
+}
+.kinmel-samachar .samachar-content
+{
+    padding-bottom: 1rem;
+}
+.kinmel-samachar .samachar-content figure img
+{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+/* -------------------GLLOBAL-SECTION------------ */
+
+.global-section,
+.global-ghumfir-section,
+.ghumfir-anubhav-section
+{
+    margin-top: 4.3rem;
+}
+.ghumfir h2,
+.global-ghumfir h2,
+.bishesh-ghumfir-anubhav h2
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #267163;
+    margin: 0 0 1.2rem 0;
+    padding: 0 0 1rem 0;
+}
+.global-section-content,
+.global-ghumfir-section-content
+{
+    padding-left: 2rem;
+    margin-bottom: 1.2rem;
+}
+.global-section-content .featured-news-title a,
+.global-ghumfir-section-content .featured-news-title a
+{
+    font-size: 2.2rem;
+}
+
+/* ----------------KHELKUD-SECTION---------- */
+
+.khelkud-section,
+.kala-section,
+.global-section
+{
+    margin-top: 4.3rem;
+}
+/* ---------------KALA-SECTION-------------------- */
+.kala-mask-box
+{
+    background: #743572;
+}
+.kala-mask-box .items.featured-items .main-title,
+.kala-mask-box .items .kala-media-caption .main-title
+{
+    color: #fff;
+}
+.kala-mask-box .items.featured-items .author-name,
+.kala-mask-box .items.featured-items .description,
+.kala-mask-box .items .kala-media-caption .author-name
+{
+    color: #ddd;
+}
+.kala-mask-box .items
+{
+    border-top: 1px solid #333;
+}
+
+/* --------------------GHUMFIR-ANUBHAV-BISHESH------------ */
+.bishesh-ghumfir-content
+{
+    text-align: center;
+    padding-left: 2.2rem;
+}
+.bishesh-ghumfir-content .items a:hover{
+    text-decoration: none;
+}
+.bishesh-ghumfir-content .items img
+{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bishesh-ghumfir-content .items .main-title
+{
+    display: block;
+    color: #222;
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.bishesh-ghumfir-content .items .author-name
+{
+    font-size: 0.9rem;
+    color: #222;
+    display: block;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 0.7rem;
+    line-height: 1.8rem;
+}
+.bishesh-ghumfir-content .items .author-name::after
+{
+    position: absolute;
+    content: "";
+    width: 4.2rem;
+    height: 1px;
+    background: #d13938;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+
+/* -----------END-OF-BODY-CONTENT-------------- */
+
+/* --------------FOOTER------------------- */
+.footer
+{
+    margin-top: 3rem;
+width: 100%;
+font-size: 0.9rem;
+color: #666;
+padding: 1.8rem 0 6.5rem 0;
+background: #f0f0f0;
+}
+.footer .items
+{
+    color: #666;
+    text-align: left !important;
+    font-size: 1rem;
+    margin: 0;
+}
+.footer .items .footer-mask-box
+{
+    background: #fff;
+    height: 530px;
+     padding: 2rem 2rem 2.4rem 2rem;
+     transition: all 0.3s ease-in-out;
+}
+.footer .items .footer-mask-box:hover{
+    box-shadow: 0 0 3.3rem rgba(0, 0, 0, 0.3);
+}
+.footer-mask-box .media{
+    margin-top: 2rem;
+    display: block;
+}
+.footer-mask-box .media:first-child
+{
+    margin-top: 0;
+}
+.footer .items .footer-mask-box h1
+{
+    font-size: 1.1rem;
+    color: #266b9e;
+    font-weight: 700;
+}
+.footer-mask-box .fa-envelope
+    {
+        color: #fff;
+        font-size: 1rem;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        background: #84b1d7;
+        margin-right: 1rem;
+        border-radius: 50px
+}
+.footer-mask-box .media figure
+{
+    margin: 2rem 0;
+}
+.footer-mask-box .media figure img{
+
+    width: 100%;
+}
+.footer-mask-box .media .reg-no
+{
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.1rem;
+}
+.footer-mask-box .media .description
+{
+    line-height: 1.5rem;
+}
+ 
+.social-media-feed .items .facebook-box h1
+{
+    margin-bottom: 0.9rem;
+}
+.facebook-box .left-icon,
+.footer-menu h1 .left-icon
+{
+    color: #fff;
+    font-size: 14px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background: #84b1d7;
+    margin-right: 15px;
+    border-radius: 50px;       
+}
+.social-row 
+{
+    margin-top: 1.4rem;
+}
+.social-row .media:first-child
+{
+    margin-top: 1rem;
+}
+.social-row .media .social-title
+{
+    color: #337ab7;
+    font-size: 0.9rem;
+}
+.social-row .media .twitter
+{
+    background: #00aced;
+}
+.social-row .media .youtube
+{
+    background: #bb0000;
+}
+.social-row .media .instagram
+{
+    background: #bc2a8d;
+}
+.footer-menu h1
+{
+    margin-bottom: 1.5rem;
+}
+
+.footer-menu .footer-nav
+{
+    margin-bottom: 4rem;
+}
+.footer-nav li
+{
+    display: block;
+    margin-bottom: 0.8rem;
+}
+.footer-nav li a
+{
+    display: block;
+    color: #666;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    transition: all 0.3s ease-in-out;
+}
+.footer-nav li a:hover{
+    text-decoration: none;
+    color: #0a508d;
+}
+.footer-nav-bishesh li:nth-child(1),
+.footer-nav-bishesh li:nth-child(3)
+{
+    font-weight: 600;
+}
+.footer-line
+{
+    margin-top: 2.5rem;
+    background: #fff;
+}
+.footer-line .copyright
+{
+    padding: 0.6rem 0 0.7rem;
+    margin: 1.9rem 0 0 0;
+    background: #fff;
+    font-size: 0.9rem;
+    color: #616161;
+    font-weight: 600;
+}
+.copyright .designby
+{
+    text-align: right;
+}
+.copyright .designby a
+{
+    color: #125ea1;
+    transition: all 0.3s ease-in-out;
+}
+.copyright .designby a:hover
+{
+    text-decoration: none;
+    color: #06457c;
+}
+
+.upScroll.buttonShow
+{
+    position: fixed;
+    bottom: 2rem;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.scrollToTop
+{
+    transition: all 0.3s ease-in-out; 
+    background: #d13938;
+    text-align: center;
+    color: #fff;
+    width: 33px;
+    height: 32px;
+    display: block;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    border-radius: 50px;
+}
+.upScroll.buttonShow a:hover
+    {
+        color: #fff;
+        background: #337ab7;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* ----------------SMALL-DEVICES---------------- */
+
+@media screen and (max-width:1199px)
+{
+    .container
+    {
+        max-width: 100% !important;
+    }
+    .mast-ad-head
+    /* .body-content */
+{
+    padding:0 !important;
+}
+}
+@media screen and (max-width:1000px)
+{
+    .calender-date
+    {
+        margin-right: 1rem;
+    }
+    .breaking-news-4-content .bishesh-news-content,
+    .breaking-news-4-content .samachar-content,
+    .samachar-videos-box,
+    .samachar-photos-box,
+    .global-section-content,
+    .bishesh-ghumfir-content,
+    .global-ghumfir-section-content,
+    .bishesh-news-content,
+    .samachar-content
+    {
+        padding-left:0;
+    }
+    .bishesh-news-right .bishesh-news-mask-box .items.media figure
+    {
+        max-width: 120px;
+        height: 100px;
+    }
+    .bishesh-news-right .bishesh-news-mask-box .items.media figure img
+    {
+        width: 120px;
+    }
+    .footer .items .footer-mask-box
+    {
+        padding: 2rem 1rem;
+        height: 600px;
+    }
+    .facebook-box .left-icon
+    {
+        margin-right: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 960px)
+{
+    html
+    {
+        font-size: 96%;
+    }
+.unicode-title,
+.english-title,
+.date-title,
+.clock-title
+{
+    font-size: 0.8rem;
+}
+.social-box .media{
+    margin-right: 1.2rem;
+}
+
+.time-settings
+{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow: auto;
+}
+.time-settings .calender {
+    display: inline-flex;
+    flex: none;
+    position: relative;
+}
+.more-btn{
+    padding-left: 2rem;
+}
+.calender-time{
+    margin-right: 0;
+    margin-left: auto;
+}
+.breaking-news-item a span
+{
+    font-size: 3rem;
+}
+.breaking-news-2-title
+{
+    font-size: 2.8rem;
+}
+ .special-news .featured-news-title-box .featured-news-title a
+ {
+     font-size: 2.6rem;
+ }
+.global-section-content .featured-news-title-box .featured-news-title a,
+.global-ghumfir-section-content .featured-news-title-box .featured-news-title a
+{
+   font-size: 2rem;
+}
+.social-row .media .social-title {
+    font-size: 0.84rem;
+}
+
+
+@media screen and (max-width: 760px)
+{
+    .add-box
+    {
+        padding-top: 0;
+    }
+    .add-box img,
+    .ad-2-box img,
+    .ad-3-item img,
+    .ad-4-item img,
+    .ad-5-item img,
+    .ad-6-item img,
+    .full-ad-box img
+    {
+        height: 70px;
+    }
+    .header-logo{
+        margin: 0.8rem 0 1.3rem;
+    }
+    .header-box
+    {
+        margin: 2rem 0;
+    }
+    .header-logo a
+    {
+        max-width: 250px;
+    }
+    .header-logo img
+    {
+        max-width: 100%;
+        height: 60px !important;
+    }
+    .breaking-news-item a span
+    {
+        font-size: 2.5rem;
+    }
+    .breaking-news-2-title
+{
+    font-size: 2.2rem;
+    }
+    .breaking-news-description
+    {
+        padding: 1.6rem 0 0.4rem;
+    }
+    .breaking-news-3-section-box .items
+    {
+        text-align: center;
+    }
+    .breaking-news-3-section-box .news-3-title
+    {
+        margin: 0 0 2.5rem;
+        padding: 0 1.5rem;
+    }
+    .special-news .featured-news-title-box .featured-news-title a {
+        font-size: 1.6rem;
+    }
+    .special-news-bottom-part a img {
+        height: 430px;
+    }
+    .featured-news-title-author-box {
+        justify-content: flex-start;
+    }
+    .featured-news-author-box-content
+    {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0.5rem 0;
+    }
+    .samachar-content .items .more-news li .left-icon
+    {
+        display: none;
+    }
+    .breaking-news-3-section-box .items
+    {
+        padding: 0 2rem;
+    }
+    .breaking-news-3-section-box figure img
+    {
+        width: 100%;
+    }
+    .bishesh-news-right
+    {
+        order: 1;
+        margin-bottom: 3rem;
+    }
+    .bishesh-news-left
+    {
+        order: 2;
+    }
+    .bishesh-news-left .items a
+    {
+        display: inherit;
+    }
+    .bishesh-news-mask-box .items.media,
+    .kinmel-mask-box .items.media,
+    .khelkud-mask-box .items.media,
+    .kala-mask-box .items.media,
+    .global-mask-box .items.media
+    {
+        display: block !important;
+    }
+    .bishesh-news-mask-box .items.media .mr-3,
+    .kinmel-mask-box .items.media .mr-3,
+    .khelkud-mask-box .items.media .mr-3,
+    .kala-mask-box .items.media .mr-3,
+    .global-mask-box .items.media .mr-3
+    {
+        margin-right: 0 !important;
+    } 
+    .bishesh-news-mask-box .items.media a,
+    .bishesh-news-mask-box .items.media a img,
+    .kinmel-mask-box .items a,
+    .kinmel-mask-box .items a img,
+    .khelkud-mask-box .items a,
+    .khelkud-mask-box .items a img,
+    .kala-mask-box .items a,
+    .kala-mask-box .items a img,
+    .kala-mask-box .items a,
+    .kala-mask-box .items a img
+    {
+        display: block !important;
+    }
+    .bishesh-news-right .bishesh-news-mask-box .items.media figure,
+    .samachar-content figure
+    {
+        max-width: 100%;
+        height: auto;
+    }
+    .bishesh-news-mask-box .items.media figure img,
+    .samachar-content figure img
+    {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        object-fit: cover;
+    }
+    .bishesh-news-mask-box .items.media
+    {
+        text-align: left;
+    }
+    .bishesh-news-left .items .bishesh-item-main-title
+    {
+        font-size: 1rem;
+        margin-left: 0.6rem;
+    }
+    .latest-video-thumb .main-title,
+    .latest-photo-thumb .main-title
+    {
+        font-size: 1.3rem;
+    }
+    .media-caption .tags
+    {
+        margin-top: 0.8rem;
+    }
+    .kinmel-bishesh .items figure .tags,
+    .khelkud-bishesh .items figure .tags,
+    .kala-bishesh .items figure .tags,
+    .global-bishesh .items figure .tags
+    {
+        position: absolute;
+        left: 0;
+        margin-top: 2rem;
+        bottom: -30px;
+    }
+    .global-section-content .featured-news-title-box .featured-news-title a
+    {
+        font-size: 1.7rem;
+    }
+    .right-side-bichar .items.bichar-ad-item .media
+    {
+        display: block !important;
+    }
+    .right-side-bichar .items.ad-item a,
+    .right-side-bichar .items.bichar-ad-item .media.bichar-item-ad-box a
+    {
+        max-width: 100%;
+        display: block !important;
+    }
+    .right-side-bichar .items.ad-item a img,
+    .right-side-bichar .items.bichar-ad-item .media.bichar-item-ad-box a img
+        {
+        width: 100%;
+        display: block;
+    }
+    .footer .items .footer-mask-box
+    {
+        height: auto;
+        padding-bottom: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .social-row .media .social-title {
+        font-size: 0.7rem !important;
+    }
+    .footer
+    {
+        padding-bottom: 0;
+    }
+    .company-info,
+    .copyright .designby
+    {
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:560px)
+{
+    
+    .samachar-photos-box .more-btn,
+    .samachar-videos-box .more-btn
+    {
+        margin: 1.4rem auto 0.8rem;
+        padding-left: 0;
+ }
+    .kinmel-samachar-section-content .more-btn,
+ .kinmel-samachar-content .more-btn,
+ .bishesh.ghumfir .more-btn,
+ .khelkud-section .more-btn,
+ .kala-section .more-btn,
+ .global-section .more-btn,
+ .bishesh.global-ghumfir .more-btn,
+ .bishesh-ghumfir-anubhav .more-btn
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
